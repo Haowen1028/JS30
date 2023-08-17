@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.body-pic {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/881-1500x1000-blur_5.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.body-pic .clock-area {
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  margin-top: 250px;
+}
+.body-pic .clock-area .clock-cir {
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  border-radius: 50%;
+  border: 20px solid white;
+  position: relative;
+}
+.body-pic .clock-area .clock-cir .timer {
+  background-color: #000;
+  position: absolute;
+  margin-top: calc(50% - 10px);
+}
+.body-pic .clock-area .clock-cir #timer-sec {
+  width: 150px;
+  height: 5px;
+  margin-left: 100px;
+}
+.body-pic .clock-area .clock-cir #timer-min {
+  width: 200px;
+  height: 5px;
+  margin-left: 50px;
+}
+.body-pic .clock-area .clock-cir #timer-hours {
+  width: 100px;
+  height: 5px;
+  margin-left: 150px;
+}/*# sourceMappingURL=timer.css.map */
